@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/icon/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Thanh menu -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-slide">Band</a></li>
+                <li><a href="#tour-slide">Tour</a></li>
+                <li><a href="#contact-slide">Contact</a></li>
+                <li>
+                    <a href="#">More 
+                        <i class="nav-icon ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+           </ul>
+           <!-- End thanh menu -->
+        <!-- Search icon -->
+           <div class="search-bth">
+            <div class="search-icon ti-search">
+            </div>
+        <!-- End search-icon -->
+       </div>
+        </div>
+
+        <!-- SLIDER -->
+        <div id="slider">
+           <div>
+            <img class="slides" src="./assets/image/chicago.jpg" width="100%">
+            <img class="slides" src="./assets/image/newyork.jpg" width="100%">
+            <img class="slides" src="./assets/image/la.jpg" width="100%">
+           </div>
+
+           <div class="text-content">
+                <h2 class=" text-heading">
+                    Chicago
+                </h2>
+                <div class=" text-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+           </div>
+           <div class="text-content">
+
+                <h2 class=" text-heading">
+                    New York
+                </h2>
+                <div class=" text-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+            <div class="text-content">
+
+                <h2 class=" text-heading">
+                Los Angeles
+                </h2>
+                <div class=" text-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+        </div>
+
+        <script>
+            w3.slideshow(".slides", 1500);
+            w3.slideshow(".text-content", 1500);    
+        </script>
+        <!-- END SLIDER -->
+        <div class="container">
+            <div id="about-slide" class="about-information">
+                <div class="section-content about">
+                        <h1 class="section-heading">The Band</h1>
+                        <p class="sub-heading">We love music</p>
+                        <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna minim veniam, quis nostrud exercitation ullamco laboris nisi ut do consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna minim veniam, quis nostrud exercitation ullamco laboris nisi ut do consequat.</p>
+                        
+                        <div class="member">
+                            <div class="team">
+                                <p class="name">Name</p>
+                                <img style="width: 60%;border-radius: 4px;" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+                            </div>
+                            <div class="team">
+                                <p class="name">Name</p>
+                                <img style="width: 60%;border-radius: 4px;" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+                            </div>
+                            <div class="team">
+                                <p class="name">Name</p>
+                                <img style="width: 60%;border-radius: 4px;" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tour-slide" class="state-tour">
+                    <div class="section-content">
+                        <h1 class="section-heading">Tour Dates</h1>
+                        <p class="sub-heading">Remember to book your ticket!</p>
+                        <ul class="month-list">
+                            <li class="sub-list">September <span class="state-month">Sold out</span></li>
+                            <li class="sub-list">Octorber <span class="state-month">Sold out</span></li>
+                            <li class="sub-list">November <span class="quantity">3</span></li>
+                        </ul>
+                        <div class="section-row">
+                            <div style="width: 33%;" class="row section-information">
+                                <img class="tour-image"  src="./assets/image/newyork.jpg" alt="">
+                                 <div class="place-information">
+                                <h2 class="information-heading">
+                                    New York
+                                 </h2>
+                                 <p class="information-time">
+                                    Fri 27 Nov 2016
+                                 </p>
+                                 <p class="information-text">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                 </p> 
+                                  <button class="js-ticket-buying">Buy Tickets</button>
+                                 </div>     
+                            </div>
+                            <div style="width: 33%;"  class="row section-information">
+                                <img class="tour-image"  src="./assets/image/paris.jpg" alt="">
+                                <div class="place-information">
+                                    <h2 class="information-heading">
+                                    Paris
+                                </h2>
+                                <p class="information-time">
+                                    Sat 28 Nov 2016
+                                </p>
+                                <p class="information-text">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                 <button class="js-ticket-buying">Buy Tickets</button>
+                                </div>   
+                            </div>
+                            <div style="width: 33%;" class="row section-information">
+                                <img class="tour-image"  src="./assets/image/sanfran.jpg" alt="">
+                                <div class="place-information">
+                                    <h2 class="information-heading">
+                                    San Francisco
+                                </h2>
+                                <p class="information-time">
+                                    Sun 29 Nov 2016
+                                </p>
+                                <p class="information-text">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="js-ticket-buying">Buy Tickets</button>
+                                </div>                        
+                            </div>
+                            <!-- Xóa bug khi sài float -->
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="contact-slide" class="state-contact">
+                    <div class="section-content  contact">
+                        <h1 class="section-heading">Contact</h1>
+                        <p class="sub-contact">Chicago, US</p>
+                        <p class="sub-contact">Phone: +00 151515</p>
+                        <p class="sub-contact">Email: mail@mail.com</p>
+                        <p class="sub-heading">Fan? Drop a note</p>
+                        <div class="input_list">
+                            <input class="my_input" type="text" placeholder="Name" required name = "Name">
+                            <input class="my_input" type="text" placeholder="Email" required name = "Email">
+                            <input class="my_input" type="text" placeholder="Message" required name = "Message">
+                            <button class="btn_send" type="submit">SEND</button>
+                        </div> 
+                    </div>
+                    <div class="image_map">
+                        <img src="/assets/image/map.jpg" class="w3-image" style="width:100%">
+                    </div>  
+                </div>  
+                
+        </div>
+
+        <div id="footer">
+            <div class="social-list">
+                <a class="my_icon" href=""><i class="ti-facebook"></i></a>
+                <a class="my_icon" href=""><i class="ti-instagram"></i></a>
+                <a class="my_icon" href=""><i class="ti-android"></i></a>
+                <a class="my_icon" href=""><i class="ti-pinterest"></i></a>
+                <a class="my_icon" href=""><i class="ti-twitter"></i></a>
+                <a class="my_icon" href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="my_notice">Powered by <a class="my_notice w3_page" href="https://www.w3schools.com/">w3.css</a></p>
+        </div>
+    </div>
+    <!-- START MODAL -->
+    <div class="js-modal">
+       <div class="modal-container">
+        <div class="js-button-close">
+            <i class="ti-close"></i>
+        </div>
+        <header class="modal-header">
+            <i class="ti-bag"></i>
+            Tickets
+        </header>
+        <!-- Modal - Khung mua vé -->
+        <div class="modal-body-container">
+            <div class="modal-body">
+                <label for="buy-ticket" class="modal-label">
+                    <i  class="ti-shopping-cart "></i>
+                    Buy ticket here
+                </label>
+                <input id="buy-ticket" type="email" class="modal-input " placeholder="How many?">
+                <label for="user-email" class="modal-label">
+                    <i class="ti-user user-email"></i>    
+                    User
+                </label>
+                <input id="user-email" type="email" class="modal-input" placeholder="Email...">
+                <button class="modal-but">
+                    Pay
+                <i class="ti-check"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Javascript -->
+        <!-- Đóng mở modal -->
+        <script>
+            // Thêm chức năng mở modal
+            const BuyBtns = document.querySelectorAll('.js-ticket-buying')
+            const Modal = document.querySelector('.js-modal')
+            function ShowModal() {
+                Modal.classList.add('open')
+            }
+            for (const BuyBtn of BuyBtns) {
+                BuyBtn.addEventListener('click',ShowModal)
+            }
+            // Thêm chức năng đóng modal
+            const Closebutton = document.querySelector('.js-button-close')
+            function CloseModal() {
+                Modal.classList.remove('open')
+            }
+            Closebutton.addEventListener('click',CloseModal)
+        </script>
+        <!-- End Javascript -->
+        <footer class="modal-footer "> 
+            Need <a href="" class="modal-help">help?</a>
+        </footer>
+        <!-- END MODAL -->
+        </div>
+    </div>
+
+</body>
+</html>
