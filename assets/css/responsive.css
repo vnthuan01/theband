@@ -1,0 +1,205 @@
+@media (min-width: 1025px)
+{
+
+    
+    #header .menu-btn{
+        display: none;
+    }
+    
+    
+}
+
+@media (min-width:740px) and (max-width:1024px)
+{
+
+    #header .menu-btn{
+        display: none;
+    }
+
+    #contact-slide .section-content .section-heading {
+        margin-top: 10px;
+    }
+
+    #about-slide .section-content,
+    #tour-slide .section-content,
+    #contact-slide .section-content 
+    {
+        padding: 60px 0;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slides {
+        margin-top: 46px;
+    } 
+
+    #slider .text-content {
+        position: absolute;
+        color: #fff;
+        /* Cho text vào trong khung */
+        bottom: 40vh;
+        /* Căn giữa chữ */
+        left: 50%;
+        transform: translateX(-50%);
+        /* left: 0;
+        right: 0; */
+        text-align: center;
+    
+    }
+    
+    #slider .text-heading {
+        font-weight: 500;
+        font-size: 24px;
+        margin: 25px 0;
+    }
+
+    .btn_send
+    {
+        position: absolute;
+        color: #fff;
+        /* Cho text vào trong khung */
+        /* Căn giữa chữ */
+        /* left: 50%;
+        transform: translateX(-50%); */
+        left: 35%;
+        right: 35%;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 739px)
+{
+
+    /* All heading */
+    #tour-slide .section-content .section-heading,
+    #about-slide .section-content .section-heading,
+    #contact-slide .section-content .section-heading {
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 46px 0;
+    font-size: 16px;
+    }
+    /* All sub-heading */
+    #about-slide .section-content .sub-heading,
+    #tour-slide .section-content .sub-heading,
+    #contact-slide .section-content .sub-heading {
+    font-size: 12px;
+    font-style: italic;
+    /* opacity: 0.6; */
+    color: #999;
+    text-align: center;
+
+    }
+
+    #about-slide .section-content,
+    #tour-slide .section-content,
+    #contact-slide .section-content 
+    {
+        padding: 10px 10px;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slides {
+        margin-top: 46px;
+        max-height: 50%;
+    } 
+
+    .slider {
+        position: relative;
+    }
+    
+    #slider .text-content {
+        position: absolute;
+        color: #fff;
+        /* Cho text vào trong khung */
+        bottom: 60vh;
+        /* Căn giữa chữ */
+        left: 50%;
+        transform: translateX(-50%);
+        /* left: 0;
+        right: 0; */
+        text-align: center;
+    
+    }
+    
+    #slider .text-heading {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+
+    #slider .text-paragraph {
+        font-size: 10px;
+        margin: 2px 0px 6px;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+
+    #header .menu-btn:hover{
+        background-color:#ccc;
+    }
+    
+    #header {
+        overflow:hidden;
+    }
+
+    #nav > li {
+        display: block;
+    
+    }
+    
+    #nav .li-home
+     {
+        display:inline-block;
+    
+    }
+
+    .row {
+        float: none;
+        padding: 0px 8px;
+    }
+
+    .tour-image
+    {
+        width: 96%;
+    }
+    
+    .section-row .section-information
+    {
+        width: 97vw;
+        padding: 6px;
+    }
+
+    #tour-slide .section-row
+    {
+        padding: 0px 0px;
+
+    }
+
+    #nav .subnav{
+        padding: 6px 40px;
+    }
+
+    .btn_send
+    {
+        position: absolute;
+        color: #fff;
+        /* Cho text vào trong khung */
+        /* Căn giữa chữ */
+        /* left: 50%;
+        transform: translateX(-50%); */
+        left: 30%;
+        right: 30%;
+        text-align: center;
+    }
+
+    .image_map{
+        padding: 50px 0px;
+    }
+}
